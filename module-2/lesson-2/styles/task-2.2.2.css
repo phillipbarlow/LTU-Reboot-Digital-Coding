@@ -9,6 +9,9 @@ selector {
 }
 
 */
+body {
+  background-color: #e6e6e6;
+}
 p {
   color: #343434;
   font-size: 24px;
@@ -21,13 +24,21 @@ a {
   border: 1px solid blue;
 }
 
-ol, ul {
+ol,
+ul {
   color: green;
   border: 1px solid red;
 }
 
 li {
   color: purple;
+}
+.item1 {
+  font-weight: 800;
+  color: cornflowerblue;
+}
+.ordered-list {
+  background-color: darkcyan;
 }
 
 /* Your code goes above here */
