@@ -11,4 +11,10 @@ p em {
 p strong {
   font-size: 32px;
 }
-/* Your code goes above here */
+
+ul strong {
+  color: red;
+}
+ul li strong {
+  color: green;
+}
