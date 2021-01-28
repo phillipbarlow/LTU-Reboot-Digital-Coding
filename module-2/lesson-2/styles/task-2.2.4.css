@@ -15,6 +15,7 @@ p strong {
 ul strong {
   color: red;
 }
+//this one wins!
 ul li strong {
   color: green;
 }
