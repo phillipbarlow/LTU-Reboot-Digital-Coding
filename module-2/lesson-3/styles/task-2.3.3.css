@@ -14,17 +14,44 @@ a:hover {
 a:focus {
   color: orange;
   font-size: 32px;
+} */
+
+/* .github-link1:link,
+    .github-link2:link,
+    .github-link3:link,
+    .github-link4:link {
+      color: hotpink;
+    } */
+
+/* visited */
+.github-link1:visited,
+.github-link2:visited,
+.github-link3:visited,
+.github-link4:visited {
+  color: grey;
 }
 
-a:active {
-  color: pink;
-} */
-.github-link1:hover {
+/* on mouse over */
+.github-link1:hover,
+.github-link2:hover,
+.github-link3:hover,
+.github-link4:hover {
   color: greenyellow;
 }
-.github-link1:link {
+
+/* selected link */
+.github-link1:active,
+.github-link2:active,
+.github-link3:active,
+.github-link4:active {
   color: red;
 }
-.github-link1:visited {
-  color: red;
+
+/* makes bigger on click */
+.github-link1:focus,
+.github-link2:focus,
+.github-link3:focus,
+.github-link4:focus {
+  color: orange;
+  font-size: larger;
 }
