@@ -2,19 +2,19 @@ CPD - Continuing Professional Development
 
 
 Date of CPD activity
-26/01/2021
+21/01/2021
 
 CPD activity
 Introduction to Web Development
 
 
 What have I learnt?
-    I have learnt how important it is to use the appropriate tags instead of using divs for more or less everything, also the order of headings really matter.
-
+How to position an image, the difference between absolute and relative.
 
 How did I use this in practice?
-    We practiced it in module 2 lesson 1, by adding the appropriate heading
+We positioned images
+
+
 
 What did I find hard?
-    Github, starting to get the hang of it.
 
