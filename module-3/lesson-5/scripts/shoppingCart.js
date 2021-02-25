@@ -59,3 +59,24 @@ let shoppingCart = [
   quantity:3,
   price:.4
 }];
+// console.log(shoppingCart[0].name)
+
+function getTotalPrice(shoppingCart){
+  let total = 0;
+  let itemPrice = 0;
+  
+  for(let counter = 0; counter < shoppingCart.length; counter++){
+    let objItem = shoppingCart[counter];
+    itemPrice = parseFloat(objItem.quantity) * parseFloat(objItem.price);
+    total = total + itemPrice;
+  }
+  return total.toFixed(2)
+}
+let objCoupon = {
+  name:'20OFF',
+  value:20,
+  category:'food',
+  type:'percentage'
+}
+let cartTotal = getTotalPrice(shoppingCart);
+console.log(cartTotal)
